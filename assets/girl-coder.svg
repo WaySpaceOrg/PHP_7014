@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 520">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#ff9cdb"/><stop offset="1" stop-color="#7d247c"/></linearGradient>
+ <linearGradient id="hair" x2="1" y2="1"><stop stop-color="#31132f"/><stop offset=".55" stop-color="#71345d"/><stop offset="1" stop-color="#24132e"/></linearGradient>
+ <linearGradient id="skin" x2=".8" y2="1"><stop stop-color="#ffe3d9"/><stop offset="1" stop-color="#eaa4a9"/></linearGradient>
+ <linearGradient id="pink" x2="1" y2="1"><stop stop-color="#ff9ce4"/><stop offset="1" stop-color="#e52db0"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="310" cy="475" rx="245" ry="30" fill="#f23cc0" opacity=".22"/>
+<circle cx="310" cy="260" r="220" fill="url(#bg)" opacity=".22"/>
+<path d="M90 480Q108 370 220 350L402 350Q520 375 545 480Z" fill="#ff8ed8" stroke="#ffb8ed" stroke-width="5"/>
+<path d="M202 374Q304 424 418 370L467 520H152Z" fill="#f5a4d9"/>
+<!-- hair behind -->
+<path d="M177 251Q145 80 283 48Q442 16 477 179Q507 340 435 405L186 398Q125 327 177 251Z" fill="url(#hair)" stroke="#f7a4df" stroke-width="5"/>
+<!-- headphones -->
+<path d="M166 228Q146 42 310 33Q485 24 477 226" fill="none" stroke="#ff4ec7" stroke-width="28" stroke-linecap="round" filter="url(#glow)"/>
+<path d="M166 228Q146 42 310 33Q485 24 477 226" fill="none" stroke="#ffc3ed" stroke-width="10" stroke-linecap="round"/>
+<rect x="139" y="191" width="66" height="116" rx="27" fill="#f34ac6" stroke="#ffd2f2" stroke-width="6"/>
+<rect x="416" y="191" width="66" height="116" rx="27" fill="#f34ac6" stroke="#ffd2f2" stroke-width="6"/>
+<circle cx="172" cy="249" r="19" fill="#ffe0f5"/><circle cx="449" cy="249" r="19" fill="#ffe0f5"/>
+<!-- face -->
+<path d="M202 167Q210 89 313 91Q418 91 425 186L414 283Q396 359 311 369Q226 352 207 282Z" fill="url(#skin)" stroke="#f7c1d8" stroke-width="4"/>
+<!-- bangs -->
+<path d="M187 201Q180 84 294 66Q400 50 443 154Q409 129 372 146Q326 169 285 139Q253 193 187 201Z" fill="url(#hair)"/>
+<path d="M280 113Q296 159 278 192Q257 170 258 138Z" fill="#4b2042"/>
+<path d="M339 102Q363 148 347 182Q326 158 324 126Z" fill="#542348"/>
+<!-- ears -->
+<ellipse cx="202" cy="254" rx="19" ry="30" fill="#f2b8bd"/><ellipse cx="420" cy="254" rx="19" ry="30" fill="#f2b8bd"/>
+<!-- eyes -->
+<path d="M235 237Q260 215 286 239" fill="none" stroke="#54233f" stroke-width="8" stroke-linecap="round"/>
+<path d="M339 239Q366 214 391 236" fill="none" stroke="#54233f" stroke-width="8" stroke-linecap="round"/>
+<ellipse cx="263" cy="248" rx="10" ry="16" fill="#40233b"/><ellipse cx="366" cy="248" rx="10" ry="16" fill="#40233b"/>
+<circle cx="266" cy="242" r="4" fill="white"/><circle cx="369" cy="242" r="4" fill="white"/>
+<path d="M299 281Q312 291 325 280" fill="none" stroke="#d78a9b" stroke-width="4" stroke-linecap="round"/>
+<path d="M282 315Q312 341 344 314Q326 357 298 342Z" fill="#c94d77"/>
+<path d="M294 319Q313 331 333 318" fill="none" stroke="#fff0f4" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="230" cy="285" rx="23" ry="12" fill="#ff91b8" opacity=".5"/><ellipse cx="392" cy="285" rx="23" ry="12" fill="#ff91b8" opacity=".5"/>
+<!-- hair side locks -->
+<path d="M185 198Q139 279 192 383Q218 411 238 382Q204 306 221 231Z" fill="url(#hair)"/>
+<path d="M423 190Q474 268 433 380Q410 412 389 382Q420 300 398 224Z" fill="url(#hair)"/>
+<!-- hoodie -->
+<path d="M190 390Q242 357 278 362L312 412L347 362Q400 360 449 395L502 520H119Z" fill="url(#pink)" stroke="#ffc4ed" stroke-width="5"/>
+<path d="M279 363L312 412L347 363L371 520H252Z" fill="#ffcaed"/>
+<path d="M311 415V498" stroke="#cf5ca8" stroke-width="4" stroke-dasharray="7 8"/>
+<path d="M244 412Q207 446 190 488" stroke="#ffd7f0" stroke-width="5" fill="none"/>
+<path d="M381 412Q423 448 439 488" stroke="#ffd7f0" stroke-width="5" fill="none"/>
+<!-- floating hearts -->
+<path d="M76 123C48 94 16 132 76 176C136 132 104 94 76 123Z" fill="#ff68ca" stroke="#ffd5f2" stroke-width="4"/>
+<path d="M530 140C505 115 476 146 530 184C584 146 555 115 530 140Z" fill="#ff68ca" stroke="#ffd5f2" stroke-width="4"/>
+<path d="M90 328l12 22 24 4-18 17 4 24-22-12-22 12 4-24-18-17 24-4Z" fill="#ffb4e7" filter="url(#glow)"/>
+<text x="310" y="493" font-family="Arial,sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7c1b69">♡ CODE WITH LOVE ♡</text>
+</svg>

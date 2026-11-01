@@ -1,29 +1,61 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <title>โปรไฟล์ของฉัน</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#51243f">
+<title>Lesson 2 · Ex1 | โปรไฟล์ของฉัน</title>
 <link rel="stylesheet" href="../assets/site.css">
+<style>
+body{max-width:none;padding:0;background:radial-gradient(circle at 85% 10%,#ffe1ef 0,transparent 34%),linear-gradient(135deg,#fff7fb,#fce8f2)!important;min-height:100vh}
+.site-nav{margin:0 0 32px;border-radius:0 0 22px 22px;padding:17px max(22px,calc((100% - 1080px)/2))}
+.wrap{width:min(940px,calc(100% - 32px));margin:0 auto 48px}
+.crumb{font-size:13px;color:#9b5a7b;margin-bottom:16px}
+.hero{position:relative;overflow:hidden;padding:clamp(24px,5vw,52px);border:1px solid #f0bfd7;border-radius:28px;background:linear-gradient(135deg,#fff,#fff2f8 65%,#f9ddec);box-shadow:0 18px 55px #71345118}
+.tag{display:inline-block;padding:7px 13px;border-radius:99px;background:#fce2ef;color:#a43f73;font-size:11px;font-weight:800;letter-spacing:.12em}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.12;color:#51243f;margin:18px 0 8px}
+.sub{color:#98627e;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.panel{padding:22px;border:1px solid #f0c5d9;border-radius:19px;background:#ffffffd9;min-height:120px}
+.panel h2{font-size:20px;color:#873c67;margin:0 0 9px}
+.panel p{margin:0;color:#80576d}
+.profile{display:flex;align-items:center;gap:12px;margin-top:20px;padding:16px 19px;border-radius:16px;background:#fce8f2;color:#75425d}
+.profile b{color:#51243f}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.actions a{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:99px;text-decoration:none;font-weight:800;font-size:14px}
+.home{background:linear-gradient(110deg,#d94e94,#a63d78);color:#fff!important;box-shadow:0 8px 20px #d94e9438}
+.next{background:#fff;border:1px solid #e8a9c7;color:#874165!important}
+.actions a:hover{transform:translateY(-2px)}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.site-nav{padding:14px 16px}}
+</style>
 </head>
 <body>
-<nav class="site-nav"><a class="site-brand" href="../index.html">♡ PHP_7014</a><div class="site-links"><a href="../index.html">⌂ หน้าหลัก</a><details><summary>เลือกแบบฝึกหัด ▾</summary><div class="site-menu"><a href="../Lesson%201/Ex1.html">บท 1 · Ex1</a><a href="../Lesson%201/Ex2.html">บท 1 · Ex2</a><a href="../Lesson%201/Ex3.html">บท 1 · Ex3</a><a href="../Lesson%201/Ex4.html">บท 1 · Ex4</a><a href="../Lesson%202/Ex1.html">บท 2 · Ex1</a><a href="../Lesson%202/Ex2.html">บท 2 · Ex2</a><a href="../Lesson%202/Ex3.html">บท 2 · Ex3</a><a href="../Lesson%202/Ex4.html">บท 2 · Ex4</a><a href="../Lesson%202/Ex5.html">บท 2 · Ex5</a><a href="../Lesson%202/Ex6.html">บท 2 · Ex6</a><a href="../Lesson%203/Ex1.html">บท 3 · Ex1</a><a href="../Lesson%203/Ex2.html">บท 3 · Ex2</a><a href="../Lesson%203/Ex3.html">บท 3 · Ex3</a><a href="../Lesson%203/Ex4.html">บท 3 · Ex4</a><a href="../Lesson%203/Ex5.html">บท 3 · Ex5</a></div></details><a href="https://github.com/WaySpaceOrg/PHP_7014" target="_blank" rel="noopener">GitHub ↗</a></div></nav>
-    <!-- 1. header + h1 -->
-		<header>
-      <h1>Pornpimon Kongdee</h1>
-    </header>
-    <!-- 2. nav + ลิงก์ 3 อัน -->
-		<nav>
-      <a href="1.html">Link1</a>
-      <a href="2.html">Link2</a>
-      <a href="3.html">Link3</a>
-    </nav>
-    <!-- 3. main + section 2 ส่วน (แต่ละส่วนมี h2) -->
-		<main>
-      <section><h2>งานอดิเรก</h2></section>
-      <section><h2>อาหารที่ชอบ</h2></section>
-    </main>
-    <!-- 4. footer -->
-		<footer><p>@Namfon</p></footer>
-<footer class="site-footer"><a href="../Lesson%201/Ex4.html">← ก่อนหน้า</a><a href="../index.html">บทเรียนทั้งหมด</a><a href="../Lesson%202/Ex2.html">ถัดไป →</a></footer>
+<nav class="site-nav">
+<a class="site-brand" href="../index.html">♡ PHP_7014</a>
+<div class="site-links">
+<a href="../index.html">⌂ หน้าหลัก</a>
+<details><summary>เลือกแบบฝึกหัด ▾</summary><div class="site-menu">
+<a href="../Lesson%201/Ex1.html">บท 1 · Ex1</a><a href="../Lesson%201/Ex2.html">บท 1 · Ex2</a><a href="../Lesson%201/Ex3.html">บท 1 · Ex3</a><a href="../Lesson%201/Ex4.html">บท 1 · Ex4</a>
+<a href="../Lesson%202/Ex1.html">บท 2 · Ex1</a><a href="../Lesson%202/Ex2.html">บท 2 · Ex2</a><a href="../Lesson%202/Ex3.html">บท 2 · Ex3</a><a href="../Lesson%202/Ex4.html">บท 2 · Ex4</a><a href="../Lesson%202/Ex5.html">บท 2 · Ex5</a><a href="../Lesson%202/Ex6.html">บท 2 · Ex6</a>
+<a href="../Lesson%203/Ex1.html">บท 3 · Ex1</a><a href="../Lesson%203/Ex2.html">บท 3 · Ex2</a><a href="../Lesson%203/Ex3.html">บท 3 · Ex3</a><a href="../Lesson%203/Ex4.html">บท 3 · Ex4</a><a href="../Lesson%203/Ex5.html">บท 3 · Ex5</a>
+</div></details>
+<a href="https://github.com/WaySpaceOrg/PHP_7014" target="_blank" rel="noopener">GitHub ↗</a>
+</div>
+</nav>
+<main class="wrap">
+<div class="crumb">หน้าหลัก　›　Lesson 02　›　Exercise 01</div>
+<section class="hero">
+<span class="tag">♡ LESSON 02 · EXERCISE 01</span>
+<h1>My Profile</h1>
+<p class="sub">หน้าแนะนำตัวของฉัน · HTML Structure</p>
+<div class="grid">
+<section class="panel"><h2>🌷 งานอดิเรก</h2><p>กิจกรรมที่ฉันชอบทำในเวลาว่าง</p></section>
+<section class="panel"><h2>🍰 อาหารที่ชอบ</h2><p>เมนูโปรดที่ทำให้ฉันมีความสุข</p></section>
+</div>
+<div class="profile"><span>✦</span><span>จัดทำโดย <b>Pornpimon Kongdee</b> · @Namfon</span></div>
+<div class="actions"><a class="home" href="../index.html">⌂ กลับหน้าหลัก</a><a class="next" href="../Lesson%202/Ex2.html">แบบฝึกหัดถัดไป →</a></div>
+</section>
+<footer class="site-footer"><a href="../Lesson%201/Ex4.html">← บทก่อนหน้า</a><a href="../index.html">บทเรียนทั้งหมด</a><a href="../Lesson%202/Ex2.html">ถัดไป →</a></footer>
+</main>
 </body>
 </html>

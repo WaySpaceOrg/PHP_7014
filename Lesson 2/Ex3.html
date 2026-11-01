@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post"action="booking.php">
+    <label for="name">ชื่อผู้จอง</label>
+    <input type="text" id="name" name="name" required>
+    <!-- เพิ่มช่องที่เหลือตามตาราง -->
+		<label for="tel">เบอร์โทร</label>
+  	<input type="tel" name="phone"> 
+  	<label for="date">วันที่</label>
+  	<input type="date" name="date" required>
+  	<label for="guests">จำนวนคน</label>
+  	<input type="number" min="1" max="10" name="guests">
+  
+   	<label for="zone">โซน</label>
+  	<input type="radio" name="zone">ในร้าน
+  	<input type="radio" name="zone">ริมน้ำ
+  <select id="time" name="time">
+    		<label for="zone">รอบเวลา</label>
+        <option value="เช้า">เช้า</option>
+        <option value="กลางวัน">กลางวัน</option>
+    		<option value="เย็น">เย็น</option>
+    </select>
+  	<input type="checkbox" name="birthday">มาฉลองวันเกิด
+  	<label for="note">หมายเหตุ</label>
+  	<textarea name="note"></textarea>
+  	<button type="submit">ส่ง</button>
+</form>
+
+</body>
+</html>
